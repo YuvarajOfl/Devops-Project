@@ -19,7 +19,7 @@ jobs:
       - name: virtual env
         run:  |
           python3 -m venv virtualenv
-          source virtualenv/bin/actuivate
+          source virtualenv/bin/activate
 
       - name: install dependency
         run: pip3 install -r requirements.txt
