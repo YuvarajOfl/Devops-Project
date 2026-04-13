@@ -4,5 +4,5 @@ app=Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from team 4,5,6"
+    return "Hello from Team7"
 app.run(host="0.0.0.0",port=5001)
